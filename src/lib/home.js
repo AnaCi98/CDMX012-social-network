@@ -6,10 +6,10 @@ export const home = `
     <p>Conecta con tu mundo tech. <p>
   </section>
   <div class="containerButtons">
-    <a href="#" onclick="onNavigate('/register'); return
-      false;" class="button">Registrate</a>
-    <a href="#" onclick="onNavigate('/login'); return
-      false;" class="button">Iniciar sesión</a>
+    <button id="start" onclick="onNavigate('/register'); return
+      false;" class="button">Registrate</button>
+    <button onclick="onNavigate('/login'); return
+      false;" class="button">Iniciar sesión</button>
   </div>
 </div>
 `;

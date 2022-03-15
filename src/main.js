@@ -1,5 +1,4 @@
 // Este es el punto de entrada de tu aplicacion
-
 import { home } from './lib/home.js';
 import { login } from './lib/login.js';
 import { register } from './lib/register.js';
